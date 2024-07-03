@@ -324,37 +324,57 @@
           </h5>
           <h1 class="text-uppercase">Praktik Kerja Lapangan</h1>
         </div>
-        <p class="text-center px-5">
-          Absensi bisa dilaksanakan dengan 2 kondisi yaitu :
-          <strong>Pertama, absen tepat waktu</strong> sesuai dengan jam
-          kerja`dan
-          <strong>kedua susulan jika lewat dari jam pulang kerja</strong> atau
-          jam 5 sore
-        </p>
-        <p class="text-center px-5">
-          Jika terjadi keterlambatan absen maka ajukan susulan kepada pembimbing
-          masing2, silahkan akses absen tombol dibawah:
-        </p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-3">
-          <div>
-            <a
-              class="btn btn-primary btn-lg py-2 px-4 ml-auto m-2"
-              href="#absen_jurusan"
-              >Absen Sekarang</a
-            >
-            <a
-              class="btn btn-danger btn-lg py-2 px-4 ml-auto m-2"
-              href="#pembimbing"
-              >Absen Susulan</a
-            >
-          </div>
-        </div>
-        <p class="text-center px-5 mb-5">
+        <p class="text-center px-5 mb-2">
           silahkan lakukan absen sesuai dengan konsentrasi keahlian
           masing-masing jika salah memilih konsentrasi keahlian maka password
           tidak akan terdaftar
         </p>
 
+        <table class="table table-hover mb-5">
+          <thead>
+            <tr>
+              <th>Absen</th>
+              <th>Keterangan</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Tepat Waktu</td>
+              <td>Jam 17.00-18.00</td>
+              <td>
+                <a class="btn btn-primary ml-auto" href="#absen_jurusan"
+                  >Absen Sekarang</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Susulan</td>
+              <td>Jam 18.00 Lebih</td>
+              <td>
+                <a class="btn btn-primary" href="#pembimbing">Absen Sekarang</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Rekap Absen</td>
+              <td>Total Jam</td>
+              <td>
+                <a class="btn btn-danger px-3 ml-auto" href="#cek_absen"
+                  >Cek Sekarang</a
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-3">
+          <div></div>
+        </div>
+        <h5
+          class="text-primary text-uppercase mb-3"
+          style="letter-spacing: 5px"
+        >
+          ABSENSI KONSENSTRASI KEAHLIAN
+        </h5>
         <div class="row">
           <div class="col-lg-4 col-md-12 mb-4">
             <div
@@ -480,6 +500,149 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div id="cek_absen" class="container">
+      <h5
+        class="text-primary text-uppercase mb-3 text-center"
+        style="letter-spacing: 5px"
+      >
+        REKAP ABSENSI KONSENSTRASI KEAHLIAN
+      </h5>
+      <div class="list-group mx-auto">
+        <button
+          type="button"
+          class="list-group-item list-group-item-action d-flex justify-content-between align-items-center disabled"
+        >
+          <div>
+            Teknik Komputer Dan Jaringan
+            <span
+              class="badge badge-info badge-pill ms-3"
+              style="letter-spacing: 2px; font-size: 11px"
+              >TKJ</span
+            >
+          </div>
+
+          <div class="position-relative">
+            <a class="px-3 py-1 border rounded bg-primary text-light" href="">
+              Cek Rekap</a
+            >
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+            >
+              x
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </div>
+        </button>
+        <button
+          type="button"
+          class="list-group-item list-group-item-action d-flex justify-content-between align-items-center disabled"
+        >
+          <div>
+            Teknik Sepeda Motor
+            <span
+              class="badge badge-info badge-pill ms-3"
+              style="letter-spacing: 2px; font-size: 11px"
+              >TSM</span
+            >
+          </div>
+
+          <div class="position-relative">
+            <a class="px-3 py-1 border rounded bg-primary text-light" href="">
+              Cek Rekap</a
+            >
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+            >
+              x
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </div>
+        </button>
+        <button
+          type="button"
+          class="list-group-item list-group-item-action d-flex justify-content-between align-items-center disabled"
+        >
+          <div>
+            Akuntansi
+            <span
+              class="badge badge-info badge-pill ms-3"
+              style="letter-spacing: 2px; font-size: 11px"
+              >AK</span
+            >
+          </div>
+
+          <div class="position-relative">
+            <a class="px-3 py-1 border rounded bg-primary text-light" href="">
+              Cek Rekap</a
+            >
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+            >
+              x
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </div>
+        </button>
+        <button
+          type="button"
+          class="list-group-item list-group-item-action d-flex justify-content-between align-items-center disabled"
+        >
+          <div>
+            Manajemen Perkantoran
+            <span
+              class="badge badge-info badge-pill ms-3"
+              style="letter-spacing: 2px; font-size: 11px"
+              >MP</span
+            >
+          </div>
+
+          <div class="position-relative">
+            <a
+              class="px-3 py-1 border rounded bg-primary text-light disabled"
+              href=""
+            >
+              Cek Rekap</a
+            >
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+            >
+              x
+              <span class="visually-hidden"></span>
+            </span>
+          </div>
+        </button>
+        <button
+          type="button"
+          class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+        >
+          <div>
+            Desain Komunikasi Visual
+            <span
+              class="badge badge-info badge-pill ms-3"
+              style="letter-spacing: 2px; font-size: 11px"
+              >DKV</span
+            >
+          </div>
+
+          <div class="position-relative">
+            <a
+              class="px-3 py-1 border rounded bg-primary text-light"
+              href="https://docs.google.com/spreadsheets/d/1Di44HIoJdWVsLCB6Wu7mFa3XgtYLu4Ks3SbHg3GMeRI/edit?usp=drive_link"
+              target="_blank"
+            >
+              Cek Rekap</a
+            >
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success"
+            >
+              ✓
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </div>
+        </button>
       </div>
     </div>
 
@@ -715,6 +878,7 @@
                 <a
                   class="px-3 py-1 border rounded bg-success text-light"
                   href="https://wa.link/dq5o83"
+                  target="_blank"
                 >
                   Chat Petugas</a
                 >
